@@ -150,10 +150,10 @@ img {
   margin: 0 auto;
   padding: 0 100px;
 }
-.container3{
-    max-width: 1000;
-    margin: 0 auto;
-    padding: 0 150px;
+.container3 {
+  max-width: 1000;
+  margin: 0 auto;
+  padding: 0 150px;
 }
 .flex {
   display: flex;
@@ -293,7 +293,7 @@ h3 {
   margin-left: 140px;
 }
 .section4-article {
-    margin-top: 90px;
+  margin-top: 90px;
   padding: 30px;
   width: 29%;
   background-color: rgba(255, 255, 255, 0.5);
@@ -393,8 +393,8 @@ h5 {
   font-size: 20px;
   padding: 0 100px;
 }
-.yellow i{
-  color:rgb(251,186,66);
+.yellow i {
+  color: rgb(251, 186, 66);
   margin-bottom: 30px;
 }
 small {
@@ -569,7 +569,6 @@ footer a {
 .blog-info {
   margin-right: 50px;
   margin-bottom: 100px;
- 
 }
 .red-box {
   margin-left: 30px;
@@ -597,7 +596,7 @@ footer a {
   margin-bottom: 50px;
 }
 span {
-    background-color: white;
+  background-color: white;
   color: var(--small-text);
 }
 .keyword {
@@ -614,16 +613,16 @@ span {
 .keyword i {
   color: white;
 }
-.btn-8{
-    background-color: white;
-    margin-top: 20px;
-  line-height:3;
+.btn-8 {
+  background-color: white;
+  margin-top: 20px;
+  line-height: 3;
   padding: 10px 108px;
   color: var(--secondary);
   border: 1px solid var(--secondary);
 }
-span i{
-    color: var(--small-text);
+span i {
+  color: var(--small-text);
 }
 .search {
   margin-left: 30px;
@@ -637,7 +636,7 @@ span i{
   line-height: 3.5;
 }
 .purple {
-    margin-top: 10px;
+  margin-top: 10px;
   border: none;
   height: 1px;
   background-color: plum;
@@ -646,11 +645,11 @@ span i{
   margin-top: 20px;
 }
 .recent-post-img {
-  margin-right: 30px;
+  margin-right: 15px;
 }
 .heading4-blog {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
 }
 .tags {
   color: black;
@@ -662,30 +661,32 @@ span i{
 .tag-list {
   margin-bottom: 15px;
 }
-.instagram-image{
-    margin-bottom: 10px;
+.instagram-image {
+  margin-bottom: 10px;
 }
-.instagram-image img{
-    margin-right: 10px;
+.instagram-image img {
+  margin-right: 10px;
 }
-.blog-email{
-    background-color: white;
-    line-height: 5;
-    border: 1px solid plum;
-    padding: 10px 94px;
+.news-header {
+  margin-bottom: 30px;
 }
-.switch-box{
-    text-align: center;
-    margin-top: 100px;
-   
+.blog-email {
+  background-color: white;
+  line-height: 5;
+  border: 1px solid plum;
+  padding: 10px 94px;
 }
-.switch-box-child{
-    margin-right: 20px;
-   padding: 20px;
-    border: 1px solid plum;
+.switch-box {
+  text-align: center;
+  margin-top: 100px;
 }
-.line3{
-    padding-left: 100px;
+.switch-box-child {
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid plum;
+}
+.line3 {
+  padding-left: 100px;
 }
 
 /* contact */
@@ -716,13 +717,13 @@ form {
   margin-bottom: 30px;
 }
 .mail {
-    width: 48%; 
+  width: 48%;
 }
 .name {
   width: 48%;
 }
-.name2{
-    width: 90%;
+.name2 {
+  width: 90%;
 }
 .contact-adress {
   color: var(--small-text);
