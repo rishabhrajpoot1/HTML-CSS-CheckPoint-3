@@ -601,10 +601,12 @@ span {
   color: var(--small-text);
 }
 .keyword {
+  line-height: 5;
   padding: 10px 0px;
   border: 2px solid plum;
 }
 .keyword a {
+  line-height: 1.7;
   padding: 10px 20px;
   margin-left: 80px;
   background-color: var(--secondary);
@@ -615,7 +617,7 @@ span {
 .btn-8{
     background-color: white;
     margin-top: 20px;
-  line-height: 4;
+  line-height:3;
   padding: 10px 108px;
   color: var(--secondary);
   border: 1px solid var(--secondary);
@@ -654,8 +656,8 @@ span i{
   color: black;
   background-color: white;
   border: 1px solid lightslategray;
-  margin-right: 15px;
-  padding: 0 10px;
+  margin-right: 10px;
+  padding: 0 5px;
 }
 .tag-list {
   margin-bottom: 15px;
