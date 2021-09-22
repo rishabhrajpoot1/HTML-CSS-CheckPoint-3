@@ -209,7 +209,7 @@ p {
 .section2 {
   margin-top: 15px;
 }
-.navmenu a:hover{
+.navmenu a:hover {
   color: var(--secondary);
 }
 header a {
@@ -224,6 +224,9 @@ header a {
   background-color: var(--secondary);
   color: white;
   margin-left: 20px;
+}
+.navmenu .btn-1:hover {
+  color: black;
 }
 .background-img {
   margin-top: 20px;
