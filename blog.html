@@ -21,64 +21,74 @@
     ></script>
   </head>
   <body>
+    <!-- header -->
+    <header>
+      <address class="address flex">
+        <ul class=" flex container">
+          <li class="location">
+            <a href="#"><i class="fas fa-map-marker-alt"></i>Dharmshala, Himachal Pradesh</a>
+          </li>
+          <li class="location">
+            <a href="#"><i class="fas fa-envelope"></i>rishabh1399904@gmail.com</a>
+          </li>
+        </ul>
+        <nav class="container">
+          <ul class="flex">
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </address>
+      <nav class="container flex navmenu navbar">
+        <a href="index.html">
+          <img src="assets/media/logo/logo.png" alt="brand logo" />
+        </a>
+        <ul class="uppercase flex">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="service.html">services</a>
+          </li>
+          <li>
+            <a href="cases.html">cases</a>
+          </li>
+          <li>
+            <a href="blog.html">blog</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+          <button class="background-btn uppercase">
+             <a  href="#">contact now</a>
+            </button>
+        </ul>
+      </nav>
+    </header>
     <!-- main -->
     <main>
+      
       <!-- section1 -->
-      <section class="section1">
-        <address class="address flex container">
-          <div class="adress-info flex">
-            <div class="adress-info">
-              <a href="#"><i class="fas fa-map-marker-alt"></i></a>
-              Dharmshala, Himachal Pradesh
-            </div>
-            <div class="adress-info">
-              <a href="#"><i class="fas fa-envelope"></i></a>
-              rishabh1399904@gmail.com
-            </div>
-          </div>
-          <nav>
-            <ul class="adress-font flex">
-              <li>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
-              </li>
-            </ul>
-          </nav>
-        </address>
-      </section>
-      <!-- section2 -->
-      <section class="section2">
-        <header class="container flex">
-          <div>
-            <img src="assets/media/logo/logo.png" alt="brand logo" />
-          </div>
-          <div class="uppercase navmenu">
-            <a href="index.html">home</a>
-            <a href="about.html">about</a>
-            <a href="service.html">services</a>
-            <a href="cases.html">cases</a>
-            <a href="blog.html">blog</a>
-            <a href="contact.html">contact</a>
-            <a class="btn-1" href="#">contact now</a>
-          </div>
-        </header>
-      </section>
-      <!-- section3 -->
       <section class="section3-blog hero-header">
         <h6 class="hero-heading center">Our Blog</h6>
       </section>
-      <!-- section4 -->
+      <!-- section2 -->
       <section class="section4-blog flex container3">
           <div class="blog-info">
-          <div class="section-4-blog-info">
+          <article class="section-4-blog-info">
         <figure>
           <img src="assets/media/blog/blog_1.png" alt="blog1" />
         </figure>
@@ -97,8 +107,8 @@
         <a href="#"><i class="fas fa-comments"></i></a>
         03 Comments
     </span>
-    </div>
-    <div class="section-4-blog-info">
+  </article>
+    <article class="section-4-blog-info">
         <figure>
           <img src="assets/media/blog/blog_2.png" alt="blog2" />
         </figure>
@@ -117,8 +127,8 @@
         <a href="#"><i class="fas fa-comments"></i></a>
         03 Comments
     </span>
-    </div>
-    <div class="section-4-blog-info">
+    </article>
+    <article class="section-4-blog-info">
         <figure>
           <img src="assets/media/blog/blog_3.png" alt="blog3" />
         </figure>
@@ -137,8 +147,8 @@
         <a href="#"><i class="fas fa-comments"></i></a>
         03 Comments
     </span>
-    </div>
-    <div class="section-4-blog-info">
+    </article>
+    <article class="section-4-blog-info">
         <figure>
           <img src="assets/media/blog/blog_4.png" alt="blog4" />
         </figure>
@@ -157,8 +167,8 @@
         <a href="#"><i class="fas fa-comments"></i></a>
         03 Comments
     </span>
-    </div>
-    <div class="section-4-blog-info">
+    </article>
+    <article class="section-4-blog-info">
         <figure>
           <img src="assets/media/blog/blog_5.png" alt="blog5" />
         </figure>
@@ -177,7 +187,7 @@
         <a href="#"><i class="fas fa-comments"></i></a>
         03 Comments
     </span>
-    </div>
+    </article>
     <div class="switch-box">
       <span class="switch-box-child">
         <a href="#"><i class="fas fa-less-than"></i></a>
@@ -389,7 +399,7 @@
         </div>
       </div>
       <hr class="container2 line2">
-      <p class="container3 center para6">copyright &copy 2020 All rights reserved | This template is made with <small class="color">♡ </small>by <small class="color">Rishabh</small></p>
+      <small class="container3 center copyright">copyright &copy 2020 All rights reserved | This template is made with <span class="pink">♡ </span>by <span class="pink">Rishabh</span></small>
     </footer>
   </body>
 </html>

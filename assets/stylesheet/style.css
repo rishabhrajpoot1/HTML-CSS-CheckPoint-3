@@ -176,6 +176,9 @@ p {
 .margin {
   margin: 100px 0;
 }
+.margin-bottom {
+  margin-bottom: 150px;
+}
 .flex-40 {
   flex: 0 1 40%;
 }
@@ -189,25 +192,21 @@ p {
 .font-size {
   font-size: 0;
 }
-/* main */
-/* section1 */
-.section1 {
-  padding: 5px;
+/* header */
+
+.address {
+  padding: 10px 0;
   color: white;
   background-color: var(--primary);
+}
+.location i {
+  margin-right: 10px;
 }
 .address a {
   color: white;
 }
-.adress-font a {
-  margin-right: 20px;
-}
-.adress-info {
-  margin-right: 50px;
-}
-/* section2 */
-.section2 {
-  margin-top: 15px;
+.navbar {
+  margin: 10px auto;
 }
 .navmenu a:hover {
   color: var(--secondary);
@@ -215,50 +214,49 @@ p {
 header a {
   color: rgb(40, 78, 115);
   font-weight: 600;
-  margin-right: 30px;
+  margin-right: 40px;
 }
-.btn-1 {
-  padding: 7px 25px;
+.background-btn {
   border: none;
-  border-radius: 5px;
   background-color: var(--secondary);
+  padding: 10px;
+  border-radius: 5px;
+}
+.background-btn a {
+  margin-right: 0px;
+  padding: 10px;
   color: white;
-  margin-left: 20px;
+}
+.background-btn a:hover {
+  color: black;
 }
 .navmenu .btn-1:hover {
   color: black;
 }
+/* section1 */
 .background-img {
-  margin-top: 20px;
   background-image: url(../media/hero/h1_hero.jpg);
   background-position: center;
   background-size: cover;
   padding: 160px;
 }
-.strong {
-  font-size: 14px;
-  font-weight: 300;
+.crimson {
+  font-size: 16px;
+  font-weight: 400;
   color: var(--secondary);
 }
-h1 {
+.grow-business {
   margin-bottom: 40px;
   width: 52%;
   color: var(--primary);
   font-size: 48px;
   font-weight: 900;
 }
-.btn-2 {
-  padding: 13px 32px;
-  border: none;
-  border-radius: 5px;
-  background-color: var(--secondary);
-  color: white;
-}
-/* section3 */
-.section3 {
+/* section2 */
+.section2 {
   background-color: var(--bg);
 }
-.section3-info {
+.section2-article-info {
   height: 300px;
 }
 h2 {
@@ -268,19 +266,16 @@ h2 {
 }
 
 .box {
+  padding: 10px;
   background-color: white;
   border: 3px solid var(--secondary);
-}
-.box-info {
-  padding: 24px;
 }
 h3 {
   font-size: 32px;
 }
 .line {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  margin-right: 100px;
+  margin: 10px 0;
+  margin-right: 120px;
   height: 3px;
   border: none;
   background-color: var(--secondary);
@@ -293,12 +288,12 @@ h3 {
   font-size: 12px;
   color: var(--text);
 }
-/* section4 */
-.section4-material {
+/* section3 */
+.section3-material {
   width: 60%;
   margin-left: 140px;
 }
-.section4-article {
+.section3-article {
   margin-top: 90px;
   padding: 30px;
   width: 29%;
@@ -310,15 +305,8 @@ h3 {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.btn-3 {
-  padding: 7px 25px;
-  border: none;
-  border-radius: 5px;
-  background-color: var(--secondary);
-  color: white;
-}
-/* section5 */
-.section-5-info {
+/* section4 */
+.section-4-info {
   margin: 50px 0;
 }
 h4 {
@@ -351,20 +339,20 @@ h5 {
 .btn-4 a {
   color: var(--secondary);
 }
-/* section6 */
-.section6 {
+/* section5 */
+.section5 {
   margin-bottom: 150px;
   background-color: var(--bg);
 }
-.section-6-info {
+.section-5-info {
   overflow: hidden;
   width: 45%;
 }
-.section-6-heading {
+.section-5-heading {
   margin-right: 100px;
   margin-left: 240px;
 }
-.section-6-info img {
+.section-5-info img {
   margin: 100px 0;
   height: 300px;
   margin-left: 10px;
@@ -383,11 +371,8 @@ h5 {
 .btn-5 a {
   color: var(--secondary);
 }
-/* section7 */
-.section7 {
-  margin-bottom: 150px;
-}
-.section-7-info {
+/* section6 */
+.section-6-info {
   text-align: -webkit-center;
 }
 .testimonial {
@@ -406,10 +391,7 @@ h5 {
 small {
   color: var(--text);
 }
-/* section8 */
-.section8 {
-  margin-bottom: 150px;
-}
+/* section7*/
 .recent-img {
   background-color: rgb(252, 253, 255);
   margin-right: 20px;
@@ -426,15 +408,15 @@ time {
   font-size: 12px;
   color: rgb(194, 205, 216);
 }
-/* section9 */
-.section9 {
+/* section8 */
+.section8 {
   color: white;
   background-color: rgb(1, 45, 91);
 }
-.section9 h3 {
+.section8 h3 {
   color: white;
 }
-.section-9-info {
+.section-8-info {
   padding: 100px 0;
   flex: 0 1 50%;
   margin-right: 80px;
@@ -494,11 +476,14 @@ footer a {
 .heading6 {
   color: rgb(19, 59, 105);
 }
-.para6 {
-  padding: 40px;
+.copyright {
+  display: block;
+  padding: 20px 0;
+ 
 }
-.color {
-  color: var(--secondary);
+.pink{
+  background-color: var(--bg);
+  color:var(--secondary);
 }
 .line-height {
   margin-top: 20px;
@@ -512,7 +497,7 @@ footer a {
   margin-bottom: 56px;
 }
 /* About Page */
-.section3-about {
+.section1-about {
   background-image: url(../media/hero/about_hero.jpg);
 }
 .hero-header {
