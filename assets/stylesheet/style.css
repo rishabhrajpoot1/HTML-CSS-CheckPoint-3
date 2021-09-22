@@ -511,21 +511,12 @@ footer a {
   font-size: 40px;
   padding: 120px;
 }
-.about-section-5 {
-  margin-bottom: 100px;
-}
-.about-section-4 {
-  margin-right: 280px;
-}
-.about-section-4-info {
-  margin-top: 80px;
-}
 /* Services Page */
-.section3-service {
+.section1-service {
   background-image: url(../media/hero/services_hero.jpg);
 }
 /* Cases Page */
-.section3-case {
+.section1-case {
   background-image: url(../media/hero/cases_hero.jpg);
 }
 .case-img {
@@ -536,14 +527,14 @@ footer a {
   width: 350px;
   height: 400px;
 }
-.section-4-case-info {
+.section-2-case-info {
   position: absolute;
   left: 0;
   bottom: 0;
   background-color: white;
 }
-.section-4-case {
-  padding-bottom: 200px;
+.section-2-case {
+  padding-bottom: 150px;
 }
 /* Blog Page */
 .section3-blog {
@@ -681,7 +672,7 @@ span i {
 }
 
 /* contact */
-.section3-contact {
+.section1-contact {
   background-image: url(../media/hero/contact_hero.jpg);
 }
 
@@ -734,6 +725,6 @@ form {
   color: var(--secondary);
   border: 1px solid var(--secondary);
 }
-.section-4-contact {
+.section-2-contact {
   margin-bottom: 150px;
 }
