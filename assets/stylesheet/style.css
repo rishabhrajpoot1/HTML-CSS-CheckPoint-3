@@ -209,6 +209,9 @@ p {
 .section2 {
   margin-top: 15px;
 }
+.navmenu a:hover{
+  color: var(--secondary);
+}
 header a {
   color: rgb(40, 78, 115);
   font-weight: 600;
